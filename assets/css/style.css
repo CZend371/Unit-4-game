@@ -1,4 +1,54 @@
-#crystalimg1 {
+h1 {
+    /* float: right; */
+    text-align: center;
+    margin: 10px !important;
+    padding: 10px !important;
+    border: 1px solid black !important;
+    background: red;
+    font-size: 28px !important;
+    font-weight: bold !important;
+}
+p {
+    background: green;
+    margin: 10px !important;
+    padding: 10px !important;
+    border: 1px solid black !important;
+    font-size: 18px !important;
+}
+.board {
+    border: 1px solid black !important;
+    background: purple;
+    display: inline-flex;
+    margin-left: 350px;
+    margin-bottom: 10px !important;
+}
+#score {
+    font-size: 20px;
+    font-weight: bold !important;
+    padding: 10px !important;
+}
+#target {
+    font-size: 20px;
+    font-weight: bold !important;    
+    padding: 10px !important;
+}
+#win-counter {
+    font-size: 20px;
+    font-weight: bold !important;
+    padding: 10px !important;
+}
+#loss-counter {
+    font-size: 20px;
+    font-weight: bold !important;
+    padding: 10px !important;
+}
+#crystal-red {
+    margin-left: 160px !important;
+}
+img {
 width: 200px;
 height: 200px;
+}
+body  {
+    background-color: #002ee6;
 }

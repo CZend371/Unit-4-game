@@ -1,20 +1,39 @@
 <!DOCTYPE html>
 <html>
-    <title</title>
+    <title>Crystal Collector</title>
     <head>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel="text/stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/reset.css">
         <script src="assets/javascript/game.js"></script>
     </head>
     <div class ="container">
+        <body background ="assets/images/diagmonds-light.png">
         <div class = "row">
             <div class = "col-md">
-                <div id = "score">Score:<span id = "counter"></span></div>
-                <div id = "target">Target Score:<span id = "goal"></span></div>
-                <div id = "win-counter">Wins:<span id = "wins"></span></div>
-                <div id = "loss-counter">Losses:<span id = "losses"></span></div>
+                <h1>Crystal Collector!</h1>
+            </div>
+        </div>
+        <div class = "row">
+            <div class = "col-md">
+                <p>Welcome to Crystal Collector!
+                The object of the game is to click on a crystal until
+                your score reaches the target number! 
+                You won't know what each crystal is worth so pay attention.
+                Good luck!
+                </p>
+            </div>
+        </div>
+        <div class = "row">
+            <div class = "col-md">
+                <div class = "board">
+                    <div id = "score">Score:<span id = "counter"></span></div>
+                    <div id = "target">Target Score:<span id = "goal"></span></div>
+                    <div id = "win-counter">Wins:<span id = "wins"></span></div>
+                    <div id = "loss-counter">Losses:<span id = "losses"></span></div>
+                </div>  
             </div>
         </div>
         <div class="row">
@@ -26,8 +45,6 @@
                 <img id = "crystal-purple" class = "crystal" src="assets/images/purplecrystal.jpg" alt="purple-crystal">
             </div>
         </div>
-        
-    
-        
+        </body>    
     </div>
 </html>
